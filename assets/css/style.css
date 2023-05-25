@@ -1,41 +1,126 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Barlow|Lato:300');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: lato;
+    color: #ff8c00
+}
+
+h2 {
+    font-family: barlow;
+    color: orangered;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+body {
     font-family: Barlow;
 }
 
-h2{font:500;
-color:aqua}
+h2 {
+    font-family: barlow;
+    color: orangered;
+    font: 500;
+}
 
-#hero-image{
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+
+#hero-image {
     height: 800px;
-    width:100%;
-    background: url("../images/bikeandleaves2.jpg") no-repeat center;
+    width: 100%;
+    background: url("../images/bikepaint.jpg") no-repeat center !important;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 
-#hero-outer{
-    height: 800px;
+#hero-outer {
+    height: 600px;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
+    position: relative
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Roboto&display=swap');
 
-body{
+#cover-text {
+    font-size: 130%;
+    font-family: Barlow;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+body {
     font-family: Barlow;
 }
 
-h2{font:500;
-color:aqua}
+h2 {
+    font: 500;
+    color: aqua
+}
 
 
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Roboto&display=swap');
+
+body {
+    font-family: Barlow;
+}
+
+h2 {
+    font: 500;
+    color: aqua
+}
