@@ -5,12 +5,10 @@ body {
 }
 
 h1 {
-    font: 500;
+    font-weight: 800;
     color: #2600ff
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -23,10 +21,6 @@ html {
     width: 100%;
 }
 
-body {
-    font-family: barlow;
-    color: #ff8c00
-}
 
 h1 {
     font-family: barlow;
@@ -35,20 +29,11 @@ h1 {
     letter-spacing: 3px;
 }
 
-body {
-    font-family: barlow;
-}
-
-h1 {
-    font-family: barlow;
-    color: orangered;
-    font: 500;
-}
-
 #logo {
     float: left;
     font-size: 200%;
-    margin-left: 30px
+    margin-left: 30px;
+    color:#2600ff;
 }
 .active{
     border-bottom: 1px solid #2600ff;
@@ -66,8 +51,7 @@ h1 {
     border-bottom: 1px solid #2600ff;
 }
 
-#menu a:active {
-    text-decoration: underline;
+a{color:#2600ff;
 }
 
 a:active {
@@ -76,9 +60,12 @@ a:active {
 
 #menu {
     font-size: 110%;
+    font-family: barlow;
+    font-weight: 600;
     list-style-type: none;
     letter-spacing: 4px;
     float:right;
+    color:#2600ff
 }
 
 #menu li {
@@ -99,7 +86,6 @@ a:active {
     animation-fill-mode: forwards;
 }
 
-
 #hero-outer {
     height: 350px;
     width: 100%;
@@ -107,16 +93,12 @@ a:active {
     position: relative
 }
 
-#cover-text {
-    color: white;
-}
 /* creates the fade-in for the hero image */
 
 #hero-outer @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.1);
     }
@@ -125,27 +107,19 @@ a:active {
 #cover-text {
     font-size: 130%;
     font-family: Barlow;
+    font-weight: 900;
+    color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     width: 300px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(38, 0, 255, 0.6);
+    background-color: #2600ffb3;
     bottom: 30px;
-    right: 150px;
+    right: 50px;
     position: absolute;
     border-radius: 15px;
-}
-
-body {
-    font-family: Barlow;
-    color: #000;
-}
-
-h2 {
-    font: 500;
-    color: aqua
 }
 
 .card-image-top {
@@ -172,13 +146,17 @@ hr {
 #why-us{
     text-align: center;
     padding: 30px 10px;
-    background-color: #2600ff;
-    color: white;
+    color: #2600ffe6;
     font-size: large;
+    font-family:barlow;
+    
 }
 
 #why-us-header{
     padding: 40px 20px;
+    color: #2600ffe6;
+    text-transform: uppercase;
+    font-style: bold;
 }
 .left-about-heading {
     width: 100%;
