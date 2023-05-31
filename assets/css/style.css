@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    font-family: lato;
+    font-family: barlow;
     color: #ff8c00
 }
 
@@ -32,7 +32,7 @@ h1 {
     font-family: barlow;
     color: orangered;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 body {
@@ -50,9 +50,8 @@ h1 {
     font-size: 200%;
     margin-left: 30px
 }
-
-.nav {
-    display: flex;
+.active{
+    border-bottom: 1px solid #2600ff;
 }
 
 #menu a:link {
@@ -64,7 +63,7 @@ h1 {
 }
 
 #menu a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #2600ff;
 }
 
 #menu a:active {
@@ -79,13 +78,15 @@ a:active {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
+    float:right;
 }
 
 #menu li {
-    float: right;
+    float: left;
     margin-right: 30px;
 }
 
+/* hero image and text*/
 
 #hero-image {
     height: 350px;
@@ -109,6 +110,7 @@ a:active {
 #cover-text {
     color: white;
 }
+/* creates the fade-in for the hero image */
 
 #hero-outer @keyframes hero-zoom {
     from {
@@ -170,6 +172,9 @@ hr {
 #why-us{
     text-align: center;
     padding: 30px 10px;
+    background-color: #2600ff;
+    color: white;
+    font-size: large;
 }
 
 #why-us-header{
@@ -190,33 +195,6 @@ hr {
     margin-bottom: 50px;
     text-align: center;
 
-}
-
-
-
-
-
-#choice {
-    margin: 20px o;
-    text-align: center;
-    font-size: 200%;
-    text: transform:uppercase
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url(../images/workerrw.jpg)no-repeat center center;
-    background-size: contain;
-    height: 100%;
 }
 
 #services div {
@@ -262,8 +240,8 @@ footer {
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+// Small devices (landscape phones, 450px and up)
+@media (min-width: 450px) {
     ...
 }
 
