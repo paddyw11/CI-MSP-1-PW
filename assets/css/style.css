@@ -2,14 +2,21 @@
 
 body {
     font-family: Barlow;
+    max-width: 1920px;
 }
 
 h1 {
     font-weight: 800;
     color: #2600ff
 }
-
-
+h2{
+    font-weight: 600;
+    color: #2600ff
+}
+h3{
+    font-weight: 400;
+    color: #2600ff
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,14 +28,6 @@ html {
     width: 100%;
 }
 
-
-h1 {
-    font-family: barlow;
-    color: orangered;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
 #logo {
     float: left;
     font-size: 200%;
@@ -37,6 +36,7 @@ h1 {
 }
 .active{
     border-bottom: 1px solid #2600ff;
+    font-weight: bold;
 }
 
 #menu a:link {
@@ -108,7 +108,6 @@ a:active {
     font-size: 130%;
     font-family: Barlow;
     font-weight: 900;
-    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 300px;
@@ -120,6 +119,10 @@ a:active {
     right: 50px;
     position: absolute;
     border-radius: 15px;
+}
+#cover-text h3{
+    color: #ffffff;
+
 }
 
 .card-image-top {
@@ -139,7 +142,7 @@ a:active {
 
 
 hr {
-    border-top: 1px solid #777777;
+    border-top: 1px solid #2600ff;
     width: 100%;
     margin: 5px
 }
@@ -175,6 +178,7 @@ hr {
 
 }
 
+
 #services div {
     width: 100%;
     clear: both;
@@ -182,7 +186,7 @@ hr {
     border-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #fff;
-    padding: 0;
+    
 }
 
 footer {
@@ -213,6 +217,35 @@ footer {
 .table {
     table-layout: auto;
     width: 75%;
+}
+
+/*styles for service page*/
+
+.services {
+    margin: 50px 25px;
+}
+#caption{
+    display:table-caption;
+    caption-side: top;
+    font-size: large;
+    font-weight: 400;
+    
+}
+.service-header{
+    margin:auto;
+    padding: 25px;
+    font-weight 600px;;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 900px;
+}
+.servicelist{
+    padding: 50px 25px;
+   
+}
+#services{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
