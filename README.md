@@ -83,13 +83,29 @@ Happy coding!
 
 
 #The Conwy Bike Hub
+<h1 align="center"> The Conwy Bike Hub</h1>
 
+[View the live project here](https://)
+
+Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The shop provides a range of bicycle repair and maintenence services. The site is targeted to bicycle owners that require a repair and need a reliable service. The workshop has a waiting area allowing customers to relax whilst they wait for their repair. The main USP is the locality to Conwy, a relaible and honest service and affordable pricing. The site will be useful for customers to find the range of services available, the prices and where the wqorkshop is located.  
+
+## Index - Table of Contents
+* [List of Features](#list-of-features)
+* [User Experience (UX)](#user-experiences-ux)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 ## List of Features
 
 
-## UX/UI
+## User Experience (UX)
 
+##Design
+
+##Technologies Used
 
 ## Testing
 
@@ -103,7 +119,5 @@ Images-
 Photo by <a href="https://unsplash.com/@tower_electric_bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tower Electric Bikes</a> on <a href="https://unsplash.com/s/photos/bike-wheel?orientation=landscape&license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
-
-## Future Features
 
 ## Milestone Project 1 - User-Centric Frontend Development
