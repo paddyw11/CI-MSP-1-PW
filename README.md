@@ -87,7 +87,7 @@ Happy coding!
 
 [View the live project here](https://)
 
-Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The shop provides a range of bicycle repair and maintenence services. The site is targeted to bicycle owners that require a repair and need a reliable service. The workshop has a waiting area allowing customers to relax whilst they wait for their repair. The main USP is the locality to Conwy, a relaible and honest service and affordable pricing. The site will be useful for customers to find the range of services available, the prices and where the wqorkshop is located.  
+Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The shop provides a range of bicycle repair and maintenence services. The site is targeted to bicycle owners that require a repair and need a reliable service. The workshop has a waiting area allowing customers to relax whilst they wait for their repair and enjoy free coffee. The main USP is the locality to Conwy, a relaible and honest service and affordable pricing. The site will be useful for customers to find the range of services available, the prices and where the wqorkshop is located.  
 
 ## Index - Table of Contents
 * [List of Features](#list-of-features)
@@ -102,6 +102,19 @@ Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The sh
 
 
 ## User Experience (UX)
+
+User stories
+A. First Time Visitor Goals
+As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+As a First Time Visitor, I want to be able to easily navigate to and view a menu of repairs or services.
+As a First Time Visitor, I want to be able to easily find where the organisation is located.
+B. Returning Visitor Goals
+As a Returning Visitor, I want to be able to access and view the list of services quickly and easily.
+As a Returning Visitor, I want to be able to check opening times quickly and easily.
+As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+C. Frequent User Goals
+As a Frequent User, I want to be able to book services and sign-up easily for discounts.
 
 ##Design
 
