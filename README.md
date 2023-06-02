@@ -82,9 +82,52 @@ Happy coding!
 
 # The Conwy Bike Hub
 
+<h1 align="center"> The Conwy Bike Hub</h1>
+
+[View the live project here](https://)
+
+Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The shop provides a range of bicycle repair and maintenence services. The site is targeted to bicycle owners that require a repair and need a reliable service. The workshop has a waiting area allowing customers to relax whilst they wait for their repair and enjoy free coffee. The main USP is the locality to Conwy, a relaible and honest service and affordable pricing. The site will be useful for customers to find the range of services available, the prices and where the wqorkshop is located.  
+
+## Index - Table of Contents
+
+* [List of Features](#list-of-features)
+* [User Experience (UX)](#user-experiences-ux)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
 ## List of Features
 
-## UX/UI
+### Existing Features
+
+_F01 Navigation Bar_
+
+## User Experience (UX)
+
+### User stories
+  
+#### A. First Time Visitor Goals
+
+   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+   2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+   3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of repairs or services.
+   4. As a First Time Visitor, I want to be able to easily find where the organisation is located.
+
+#### B. Returning Visitor Goals
+
+   1. As a Returning Visitor, I want to be able to access and view the list of services quickly and easily.
+   2. As a Returning Visitor, I want to be able to check opening times quickly and easily.
+   3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+
+#### C. Frequent User Goals
+
+   1. As a Frequent User, I want to be able to book services and sign-up easily for discounts.
+
+## Design
+
+## Technologies Used
 
 ## Testing
 
@@ -95,6 +138,4 @@ Happy coding!
 Images-
 Photo by <a href="https://unsplash.com/@tower_electric_bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tower Electric Bikes</a> on <a href="https://unsplash.com/s/photos/bike-wheel?orientation=landscape&license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-## Future Features
-
 ## Milestone Project 1 - User-Centric Frontend Development
