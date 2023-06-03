@@ -102,7 +102,8 @@ Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The sh
 
 ### Existing Features
 
-_F01 Navigation Bar_
+-   _F01 Navigation Bar_
+    - 
 
 ## User Experience (UX)
 

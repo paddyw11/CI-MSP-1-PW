@@ -110,7 +110,7 @@ a:active {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 300px;
+    width: 250px;
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
@@ -125,7 +125,7 @@ a:active {
 
 }
 .card-body{
-    min-height: 200px;
+    min-height: 150px;
 }
 .card-image-top {
     text-align: center;
@@ -183,7 +183,9 @@ hr {
     text-align: center;
 
 }
-
+#right-about{
+    margin-bottom: 50px;
+}
 #services div {
     width: 100%;
     clear: both;
@@ -235,8 +237,7 @@ footer {
     caption-side: top;
     font-size: large;
     font-weight: 400;
-    
-}
+    }
 .service-header{
     margin:auto;
     padding: 25px;
@@ -246,15 +247,23 @@ footer {
     max-width: 900px;
 }
 .services-table{
-    margin:auto
+    margin:auto;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
 }
 .servicelist{
-    padding: 50px 25px;
-    margin-bottom: 200px;
+    margin-bottom: auto;
     padding-bottom: 150px;      
 }
 .table{
-    table-layout:fixed;
+    table-layout:auto;
     font-size:x-large;
 }
 th{text-align: center;}
@@ -266,8 +275,13 @@ td a{font-size: x-large;}
     margin-right: 25px;
 }
 /* styling for the book now page*/
-#booknowsection{
-    margin-bottom:100px;
+
+#booknow{
+    margin-bottom:150px;
+    
+}
+#book-now-section{
+    margin-bottom:150px;
 }
 
 #booknowheader{
@@ -275,7 +289,7 @@ td a{font-size: x-large;}
 }
 form{
     width:100%;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     }
 
 form label{
@@ -287,7 +301,7 @@ input{
     border: 2px solid #2600ff;
     border-radius: 4px;
     max-width: 75%;
-    min-width: 350px;
+    min-width: 320px;
 }
 
 input:focus {
@@ -302,13 +316,13 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
     max-width: 75%;
-    min-width: 350px;
+    min-width: 320px;
 }
 
 .button{            
     background-color:#2600ff;
     border: none;
-    color: var(--offwhite);
+    color: #ffffff;
     padding: 1.25rem;
     text-align: center;
     text-decoration: none;
@@ -319,26 +333,3 @@ select {
     box-shadow: 0.3125rem 0.625rem #888888;
     margin-top: 1.875rem;
         }
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 450px and up)
-@media (min-width: 450px) {
-    ...
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    ...
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...
-}
