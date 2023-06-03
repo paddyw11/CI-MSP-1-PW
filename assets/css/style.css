@@ -124,7 +124,9 @@ a:active {
     color: #ffffff;
 
 }
-
+.card-body{
+    min-height: 200px;
+}
 .card-image-top {
     text-align: center;
     object-fit: cover;
@@ -145,7 +147,7 @@ hr {
     width: 100%;
     margin: 5px
 }
-#why-us{
+.why-us{
     text-align: center;
     padding: 20px 10px;
     color: #2600ffe6;
@@ -163,7 +165,7 @@ hr {
     padding: 20px 20px;
     color: #2600ffe6;
     text-transform: uppercase;
-    font-style: bold;
+    font-weight:bold;
 }
 .left-about-heading {
     width: 100%;
@@ -238,7 +240,7 @@ footer {
 .service-header{
     margin:auto;
     padding: 25px;
-    font-weight 600px;;
+    font-weight:600;
     text-align: center;
     text-transform: uppercase;
     max-width: 900px;
@@ -317,7 +319,7 @@ select {
     box-shadow: 0.3125rem 0.625rem #888888;
     margin-top: 1.875rem;
         }
-}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

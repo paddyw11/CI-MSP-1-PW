@@ -131,6 +131,9 @@ _F01 Navigation Bar_
 
 ## Testing
 
+On HTML validator error received a ref cannot be used i button (img). Researched on stack overflow, now link inside button inside form. 
+
+
 ## Deployment
 
 ## Credits
