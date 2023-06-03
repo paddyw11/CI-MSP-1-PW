@@ -282,6 +282,7 @@ td a{font-size: x-large;}
 }
 #book-now-section{
     margin-bottom:150px;
+    margin: left 10px;
 }
 
 #booknowheader{
@@ -301,7 +302,7 @@ input{
     border: 2px solid #2600ff;
     border-radius: 4px;
     max-width: 75%;
-    min-width: 320px;
+    min-width: 310px;
 }
 
 input:focus {
@@ -316,7 +317,7 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
     max-width: 75%;
-    min-width: 320px;
+    min-width: 310px;
 }
 
 .button{            
