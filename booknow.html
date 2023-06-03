@@ -15,7 +15,7 @@
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">The Bike Shed Conwy <i class="fa-solid fa-wrench fa-flip-horizontal"></i></h1>
+            <h1 id="logo">The Bike Shed Conwy <i class="fa-solid fa-wrench fa-flip-horizontal"></i></h1></a>
             <nav>
                 <ul id="menu">
                     <li>
@@ -29,7 +29,7 @@
                     </li>
                 </ul>
             </nav>
-        </a>
+        
 
     </header>
 
@@ -37,42 +37,57 @@
         <div id="hero-image">
 
         </div>
-
-        
+    
         <div id="cover-text">
             <h3> A cycle repair shop in the heart of Conwy </h3>
         </div>
-        
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </section>
+    <div id="booknow">
+        <section id="book-now-section">
+            <div><h2 id="booknowheader">Book Now</h2><br>
+                <p> Complete the form below and we'll contact you with our availability</P>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <div id="formdiv">
+                <form method="POST" action="https://formdump.codeinstitute.net" target="_blank">
+                    <label for="fullname">Your full name:</label><br>
+                    <input type="text" class="text-input text-input-line" id="fullname" name="fullname" placeholder="*Your name" required><br><br>
+                    <label for="email">Email address:</label><br>
+                    <input type="email" class="text-input text-input-line" id="email" name="email" placeholder="*Email" required><br><br>
+                    <label for="phone">Mobile Number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required><br>
+                    <label for="service-select">Select a Service</label><br>
+                    <select id="service-select" name="service-select">
+                    <option value="101"> Flat Tyre Repair</option>
+                    <option value="102"> Brake Adjustment</option>
+                    <option value="103"> Brake Adjustment</option>
+                    <option value="104"> Gear Adjustment</option>
+                    <option value="105"> Chain Replacement</option>
+                    <option value="106"> Wheel Truing</option>
+                    <option value="107"> Bottom Bracket Repair</option>
+                    <option value="108"> Headset Adjustment</option>
+                    <option value="109"> Pedal Replacement</option>
+                    <option value="110"> Handlebar Tape Replacement</option>
+                    <option value="111"> Full Service</option>
+                    <option value="112"> Full Bike Clean</option></select>
+                    <input type="submit" value="Request Booking" class="button"><br>
+                </form>
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        
-        <footer>
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+        </section>
+    </div>
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
                         aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
                         aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
+    </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
