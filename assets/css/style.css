@@ -112,7 +112,7 @@ a:active {
     letter-spacing: 2px;
     width: 250px;
     height: 150px;
-    padding-top: 40px;
+    padding-top: 0;
     padding-left: 10px;
     background-color: #2600ffb3;
     bottom: 30px;
