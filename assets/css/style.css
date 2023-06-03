@@ -140,7 +140,6 @@ a:active {
     }
 }
 
-
 hr {
     border-top: 1px solid #2600ff;
     width: 100%;
@@ -148,22 +147,27 @@ hr {
 }
 #why-us{
     text-align: center;
-    padding: 30px 10px;
+    padding: 20px 10px;
     color: #2600ffe6;
     font-size: large;
     font-family:barlow;
+    margin-bottom: 50px;
     
+    
+}
+#why-us p{
+    font-size: larger;
 }
 
 #why-us-header{
-    padding: 40px 20px;
+    padding: 20px 20px;
     color: #2600ffe6;
     text-transform: uppercase;
     font-style: bold;
 }
 .left-about-heading {
     width: 100%;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
     text-align: center;
@@ -171,13 +175,12 @@ hr {
 
 .right-about-heading {
     width: 100%;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
     text-align: center;
 
 }
-
 
 #services div {
     width: 100%;
@@ -197,6 +200,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 50px;
 }
 
 .social-networks {
@@ -239,15 +243,81 @@ footer {
     text-transform: uppercase;
     max-width: 900px;
 }
+.services-table{
+    margin:auto
+}
 .servicelist{
     padding: 50px 25px;
-   
+    margin-bottom: 200px;
+    padding-bottom: 150px;      
 }
+.table{
+    table-layout:fixed;
+    font-size:x-large;
+}
+th{text-align: center;}
+td{text-align: center;
+}
+td a{font-size: x-large;}
 #services{
     margin-left: 25px;
     margin-right: 25px;
 }
+/* styling for the book now page*/
+#booknowsection{
+    margin-bottom:100px;
+}
 
+#booknowheader{
+    text-align:left;
+}
+form{
+    width:100%;
+    margin-bottom: 150px;
+    }
+
+form label{
+    text-align: left;
+}
+input{
+    width: 66%;
+    padding:10px;
+    border: 2px solid #2600ff;
+    border-radius: 4px;
+    max-width: 75%;
+    min-width: 350px;
+}
+
+input:focus {
+    border: 3px solid #d9ff00;
+
+}
+
+select {
+    width: 66%;
+    padding: 10px;
+    border: 2px solid #2600ff;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    max-width: 75%;
+    min-width: 350px;
+}
+
+.button{            
+    background-color:#2600ff;
+    border: none;
+    color: var(--offwhite);
+    padding: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0.3125rem 0.625rem #888888;
+    margin-top: 1.875rem;
+        }
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
