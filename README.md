@@ -102,9 +102,45 @@ Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The sh
 
 ### Existing Features
 
--   _F01 Navigation Bar_
-    - 
+* **F01 Navigation Bar**
 
+  * The navigation bar is placed on all four pages of the website and provide a consistent look. It includes a simple logo and links to the respective pages, Home, Services, Book Now and Contact. It is responsive on multiple screen sizes and when on smaller screens they page links move under the logo.
+  
+    ![Nav Bar](documentation/rm-images/f01-nav-bar.PNG)
+
+
+* **F02 Landing Page**
+
+  * The landing area includes a photograph and a text overlay that clearly identifies to the user the type of business and the service it provides. The colours are clear and not overbearing. The blue colour scheme instils a sense of security, reliability and confidence.
+
+    ![Landing Page](documentation/rm-images/f02-landing-page.PNG)
+
+* **F03 Reasons Title**
+
+  * The "Why choose us to reapir your bike" title leads the user to a section of positive attributes of the company and develops confidence for the prospective customer.
+  
+    ![Reasons Title](documentation/rm-images/f03-reasons-title.PNG)
+
+* **F04 Reasons Section**
+    * The "reasons" sectio allows the user to learn more about the business especially its mechanic's expertise, the honest princing, the speedy service and friendly atmosphere of its workshop.
+  
+        ![Reasons](documentation/rm-images/f04-reasons.PNG)
+
+
+* **F05 Footer**
+    * The footer is featured on every page and provides consistency across the site The footer contains links to the company's social media sites through the respective icons encouraging the user to stay connected. The business can use these sites to share promotions, update customers new services offered and further promote the business. The links attahced to these icons open in a new tab to allow for easy navigation. (As the Conwy Bike Hub is fictitious, they currenlty only lead to the social media main sites.)
+
+        ![Footer](documentation/rm-images/f05-footer-bar.PNG)
+
+
+* **F06 Popular Services**
+    * The "Popular Services" section on the Services page give the user quick acccess to these particular services and a link to book them. Styling has been kept simple to ensure the user has clear information, for readibility and to minimise distraction.
+  
+        ![Popular Services](documentation/rm-images/f06-popular-services.PNG)
+
+
+* **F07 Full Service List**
+    * The fulls ervice list lies below the popular service section and allows users to scroll the full range of services on offer.The are presented in a clear ta
 ## User Experience (UX)
 
 ### User stories
@@ -124,7 +160,7 @@ Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The sh
 
 #### C. Frequent User Goals
 
-   1. As a Frequent User, I want to be able to book services and sign-up easily for discounts.
+   1. As a Frequent User, I want to be able to book the same or different services again.
 
 ## Design
 
@@ -142,4 +178,6 @@ On HTML validator error received a ref cannot be used i button (img). Researched
 Images-
 Photo by <a href="https://unsplash.com/@tower_electric_bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tower Electric Bikes</a> on <a href="https://unsplash.com/s/photos/bike-wheel?orientation=landscape&license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+
+[Colour Theory](https://www.adobe.com/creativecloud/design/hub/guides/meaning-of-blue-in-design)
 ## Milestone Project 1 - User-Centric Frontend Development
