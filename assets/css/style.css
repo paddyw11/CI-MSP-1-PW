@@ -154,8 +154,6 @@ hr {
     font-size: large;
     font-family:barlow;
     margin-bottom: 50px;
-    
-    
 }
 #why-us p{
     font-size: larger;
@@ -193,7 +191,6 @@ hr {
     border-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #fff;
-    
 }
 
 footer {
@@ -282,7 +279,7 @@ td a{font-size: x-large;}
 }
 #book-now-section{
     margin-bottom:150px;
-    margin: left 10px;
+    margin-left:10px;
 }
 
 #booknowheader{
@@ -334,3 +331,64 @@ select {
     box-shadow: 0.3125rem 0.625rem #888888;
     margin-top: 1.875rem;
         }
+/* styling for contact page */
+
+#map{
+    margin-bottom: 25px;
+}
+.map{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:25px;
+
+}
+.contact-us {
+    text-align: center;
+    padding: 20px 10px;
+    color: #2600ffe6;
+    font-size: large;
+    font-family: barlow;
+    margin-bottom: 15px;
+}
+.contact{
+    margin-bottom:100px;
+    padding-bottom: 100px;
+}
+#contact-us-header {
+    padding: 20px 20px;
+    color: #2600ffe6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#location-icon{
+    text-align: center;
+        color: #2600ffe6;
+        font-size: large;
+        font-family: barlow;
+        }
+#contact-types{
+    padding-bottom:150px;
+}
+.phone {
+    width: 100%;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.email {
+    width: 100%;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.coffee {
+    width: 100%;
+    line-height: 25px;
+    clear: both;
+    text-align: center;
+}
