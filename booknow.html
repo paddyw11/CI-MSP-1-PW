@@ -17,6 +17,7 @@
 
 <body>
     <header>
+        <!-- nav bar -->
         <a href="index.html">
             <h1 id="logo">The Bike Shed Conwy <i class="fa-solid fa-wrench fa-flip-horizontal"></i></h1></a>
             <nav>
@@ -38,7 +39,7 @@
         
 
     </header>
-
+<!-- cover text -->
     <section id="hero-outer">
         <div id="hero-image">
 
@@ -48,6 +49,7 @@
             <h3> A cycle repair shop in the heart of Conwy </h3>
         </div>
     </section>
+    <!-- booking form -->
     <div id="booknow">
         <section id="book-now-section">
             <div><h2 id="booknowheader">Book Now</h2><br>
@@ -59,8 +61,8 @@
                     <input type="text" class="text-input text-input-line" id="fullname" name="fullname" placeholder="*Your name" required><br><br>
                     <label for="email">Email address:</label><br>
                     <input type="email" class="text-input text-input-line" id="email" name="email" placeholder="*Email" required><br><br>
-                    <label for="phone">Mobile Number: e.g 07923 456 789</label><br>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]" required><br>
+                    <label for="phone">Phone Number: e.g 00447923456789</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{>11}" required><br>
                     <label for="service-select">Select a Service</label><br>
                     <select id="service-select" name="service-select">
                     <option value="101"> Flat Tyre Repair</option>

@@ -10,6 +10,7 @@ h1 {
     font-weight: 800;
     color: #2600ff
 }
+
 h2{
     font-weight: 600;
     color: #2600ff
@@ -28,7 +29,7 @@ html {
     height: 100%;
     width: 100%;
 }
-
+/* logo and title*/
 #logo {
     float: left;
     font-size: 200%;
