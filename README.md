@@ -1,92 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
-
-# Conwy Bikes
-
-## Milestone Projevct 1 - User-Centric Frontend Development![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
-
 # The Conwy Bike Hub
 
 [View the live project here](https://paddyw11.github.io/CI-MSP-1-PW/)
 
 Conwy Bike Hub is a site that advertises a fictional bicycle repair shop. The shop provides a range of bicycle repair and maintenence services. The site is targeted to bicycle owners that require a repair and need a reliable service. The workshop has a waiting area allowing customers to relax whilst they wait for their repair and enjoy free coffee. The main USP is the locality to Conwy, a relaible and honest service and affordable pricing. The site will be useful for customers to find the range of services available, the prices and where the wqorkshop is located.  
 
-![mockup](documentation/rm-images/amiresponsive.PNG)
+![mockup](documentation/rm-images/amiresponsive.png)
 
 ## Index - Table of Contents
 
@@ -130,65 +48,65 @@ The goal of the Bike Shed Conwy is to inform users of its bicycle repair and mai
 
   * The navigation bar is placed on all four pages of the website and provide a consistent look. It includes a simple logo and links to the respective pages, Home, Services, Book Now and Contact. It is responsive on multiple screen sizes and when on smaller screens they page links move under the logo.
   
-    ![Nav Bar](documentation/rm-images/f01-nav-bar.PNG)
+    ![Nav Bar](documentation/rm-images/f01-nav-bar.png)
 
 * **F02 Landing Page**
 
   * The landing area includes a photograph and a text overlay that clearly identifies to the user the type of business and the service it provides. The colours are clear and not overbearing. The blue colour scheme instils a sense of security, reliability and confidence.
 
-    ![Landing Page](documentation/rm-images/f02-landing-page.PNG)
+    ![Landing Page](documentation/rm-images/f02-landing-page.png)
 
 * **F03 Reasons Title**
 
   * The "Why choose us to reapir your bike" title leads the user to a section of positive attributes of the company and develops confidence for the prospective customer.
   
-    ![Reasons Title](documentation/rm-images/f03-reasons-title.PNG)
+    ![Reasons Title](documentation/rm-images/f03-reasons-title.png)
 
 * **F04 Reasons Section**
 
   * The "reasons" sectio allows the user to learn more about the business especially its mechanic's expertise, the honest princing, the speedy service and friendly atmosphere of its workshop.
   
-    ![Reasons](documentation/rm-images/f04-reasons.PNG)
+    ![Reasons](documentation/rm-images/f04-reasons.png)
 
 
 * **F05 Footer**
 
   * The footer is featured on every page and provides consistency across the site The footer contains links to the company's social media sites through the respective icons encouraging the user to stay connected. The business can use these sites to share promotions, update customers new services offered and further promote the business. The links attahced to these icons open in a new tab to allow for easy navigation. (As the Conwy Bike Hub is fictitious, they currenlty only lead to the social media main sites.)
 
-    ![Footer](documentation/rm-images/f05-footer-bar.PNG)
+    ![Footer](documentation/rm-images/f05-footer-bar.png)
 
 
 * **F06 Popular Services**
 
   * The "Popular Services" section on the Services page give the user quick acccess to these particular services and a link to book them. Styling has been kept simple to ensure the user has clear information, for readibility and to minimise distraction.
   
-    ![Popular Services](documentation/rm-images/f06-popular-services.PNG)
+    ![Popular Services](documentation/rm-images/f06-popular-services.png)
 
 
 * **F07 Full Service List**
 
   * The full service list lies below the popular service section and allows users to scroll the full range of services on offer. They are presented in a clear table with clickable links to direct the user to the booking page.
   
-    ![Full Service List](documentation/rm-images/f07-full-service-list.PNG)
+    ![Full Service List](documentation/rm-images/f07-full-service-list.png)
 
 
 * **F08 Booking Form**
 
   * The booking form provides a clear booking request requiring simple details in a clearly labelled format. The form will insist on information being inserted 'required' and inserted correctly 'input restrition'.
 
-    ![Booking Form](documentation/rm-images/f08-booking-form.PNG)
+    ![Booking Form](documentation/rm-images/f08-booking-form.png)
 
 
 * **F09 Contact Page**
 
   * The contact page provides information on where the company is located and uses an embedded Google Map with the location pinned. The page also include a phone number, an e-mail address and a list of opening hours with an invitation to come in to the workshop for a chat and a coffee.
   
-    ![Contact Page](documentation/rm-images/f09-contact-page.PNG)
+    ![Contact Page](documentation/rm-images/f09-contact-page.png)
 
 * **How these features support the User Stories**
     * The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and catagorised into groups A(first time visitor), B (retunring visitor) and C (frequent visitor). The existing features are listed above as F01 to F09. Below is a traceability matrix which cross references the user stories and the features, highlighting where the features support the stories:
 
-    ![traceability-matrix](documentation/rm-images/traceability-matrix-features-user-stories.PNG)
+    ![traceability-matrix](documentation/rm-images/traceability-matrix-features-user-stories.png)
 
 ### Future features
 
@@ -222,47 +140,68 @@ To follow best practice, wireframes have been developed for mobile tablet and de
 
 #### Home Page
 
-* Mobile ![screenshot](documentation/wireframes/home-mobile.PNG)
-* Tablet ![screenshot](...)
-* Desktop ![screenshot](...)
+* Mobile ![screenshot](documentation/wireframes/mobile-home.webp)
+* Tablet ![screenshot](documentation/wireframes/tablet-home.webp)
+* Desktop ![screenshot](documentation/wireframes/desktop-home.webp)
 
 #### Services Page
 
-* Mobile ![screenshot](documentation/wireframes/services-mobile.PNG)
-* Tablet ![screenshot](...)
-* Desktop ![screenshot](...)
+* Mobile ![screenshot](documentation/wireframes/mobile-services.webp)
+* Tablet ![screenshot](documentation/wireframes/tablet-services.webp)
+* Desktop ![screenshot](documentation/wireframes/desktop-services.webp)
 
 #### Book Now Page
 
-* Mobile ![screenshot](documentation/wireframes/booknow-mobile.PNG)
-* Tablet ![screenshot](...)
-* Desktop ![screenshot](...)
+* Mobile ![screenshot](documentation/wireframes/mobile-booknow.webp)
+* Tablet ![screenshot](documentation/wireframes/tablet-booknow.webp)
+* Desktop ![screenshot](documentation/wireframes/desktop-book.webp)
 
 #### Contact Page
 
-* Mobile ![screenshot](documentation/wireframes/contact-mobile.PNG)
-* Tablet ![screenshot](...)
-* Desktop ![screenshot](...)
+* Mobile ![screenshot](documentation/wireframes/mobile-contact.webp)
+* Tablet ![screenshot](documentation/wireframes/tablet-contact.webp)
+* Desktop ![screenshot](documentation/wireframes/desktop-contact.webp)
 
 ## Technologies Used
 
+### Languages used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries and Programs Used
+
+* [Google Fonts](https://fonts.google.com/) was used to import the 'Barlow' font family into the style.css file. This font is used on everypage of the site.
+* [Font Awesome](https://fontawesome.com/) was used to add icons for aethetic purpose and UX design.
+* [Bootstrap](https://getbootstrap.com/) was used as a front-end external CSS framework for modern responsiveness and pre-built components. 
+* [Fonticon](https://gauger.io/fonticon/) was used to create the favicon.
+* [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design stages.
+* [CodeAnywhere](https://codeanywhere.com/) was used as an IDE and to commit and push to github.
+* [Github](https://github.com/) is used as a repository for the project code after being pushed from Codeanywhere.
+* [Microsoft Paint 3D](https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99) was used for re-sizing images.
+* [Am I Responsive](https://ui.dev/amiresponsive) was used to create the multi-device responsiveness image. 
+  
 ## Testing
 
 ### Code Validation
 
 * [HTML Validator](https://validator.w3.org/)
   * Result for index.html
-  * ![HTML results index](documentation/validation-results/validation-reults-html-Index.PNG)
+  * ![HTML results index](documentation/validation-results/validation-reults-html-index.png)
   * Result for services.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-Index.PNG)
+  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
   * Result for booknow.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-Index.PNG)
+  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
   * Result for contact.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-Index.PNG)
+  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
 
+*Full validation is available here:
+    * [Index Page](documentation/validation-results/html-validator-index.pdf)
+    * [Services Page](documentation/validation-results/html-validator-services.pdf)
+    * []
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
   * Result for style.css
-  * ![CSS Results]()
+  * ![CSS Results](documentation/validation-results/w3c-css-validator-style.pdf)
 
 ### Bugs
 During a HTML validation test, an error was received regarding a ref cannot be used in buttons [a-ref buitton issue](documentation/validation-results/W3-Validator-HTML-Index-a-ref-btn-issue.PNG). 
