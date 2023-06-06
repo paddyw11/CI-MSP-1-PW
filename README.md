@@ -123,17 +123,21 @@ The goal of the Bike Shed Conwy is to inform users of its bicycle repair and mai
 ### Colour
 
 * The colour of 'dark saturated blue/vivid navy' (#2600ff) has been chosen for its association with confidence, reliability and security, three attribures required for bike mechanics and repair.
-*Due to the poor colour contrast of black on blue, white has been used for font over blue. The footer bar is black (#000000) with a grey (#777777) used for the Social Media icons.  
+* Due to the poor colour contrast of black on blue, white has been used for font over blue. The footer bar is black (#000000) with a grey (#777777) used for the Social media icons.  
 
 ### Typography
 
-![Goolge Fonts](https://fonts.google.com/) was used to choose a font-family.
-![Barlow](https://fonts.google.com/specimen/Barlow) was selected as a readable and clear font.
-![Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as on the 'reasons' area and the social media icons in the footer.
+* [Goolge Fonts](https://fonts.google.com/) was used to choose a font-family.
+* [Barlow](https://fonts.google.com/specimen/Barlow) was selected as a readable and clear font.
+* [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as on the 'reasons' area and the social media icons in the footer.
 
 ### Wireframes
 
+
 To follow best practice, wireframes have been developed for mobile tablet and desktop sizes. [Balsamiq](https://balsamiq.com/wirefrmmes) to create the wireframes.
+
+<details>
+<summary>Home Page Wireframes</summary>
 
 #### Home Page
 
@@ -141,11 +145,21 @@ To follow best practice, wireframes have been developed for mobile tablet and de
 * Tablet ![screenshot](documentation/wireframes/tablet-home.webp)
 * Desktop ![screenshot](documentation/wireframes/desktop-home.webp)
 
+</details>
+
+<details>
+<summary>Services Page Wireframes</summary>
+
 #### Services Page
 
 * Mobile ![screenshot](documentation/wireframes/mobile-services.webp)
 * Tablet ![screenshot](documentation/wireframes/tablet-services.webp)
 * Desktop ![screenshot](documentation/wireframes/desktop-services.webp)
+
+</details>
+
+<details>
+<summary>Book Now Wireframes</summary>
 
 #### Book Now Page
 
@@ -153,11 +167,18 @@ To follow best practice, wireframes have been developed for mobile tablet and de
 * Tablet ![screenshot](documentation/wireframes/tablet-booknow.webp)
 * Desktop ![screenshot](documentation/wireframes/desktop-book.webp)
 
+</details>
+
+<details>
+<summary>Contact Page Wireframes</summary>
+
 #### Contact Page
 
 * Mobile ![screenshot](documentation/wireframes/mobile-contact.webp)
 * Tablet ![screenshot](documentation/wireframes/tablet-contact.webp)
 * Desktop ![screenshot](documentation/wireframes/desktop-contact.webp)
+
+</details>
 
 ## Technologies Used
 
@@ -187,13 +208,13 @@ To follow best practice, wireframes have been developed for mobile tablet and de
 I have used the recommended [HTML Validator](https://validator.w3.org) to validate all of my HTML files.
 
 * Result for index.html
-  * ![HTML results index](documentation/validation-results/validation-reults-html-index.png)
-  * Result for services.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
-  * Result for booknow.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
-  * Result for contact.html
-  * ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
+   ![HTML results index](documentation/validation-results/validation-reults-html-index.png)
+   Result for services.html
+   ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
+   Result for booknow.html
+   ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
+   Result for contact.html
+   ![html results servcies](documentation/validation-results/validation-reults-html-index.png)
 
 * Full validation is available here:
   * [Index Page](documentation/validation-results/html-validator-index.pdf)
@@ -207,7 +228,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 * Result for style.css
 
-  * ![CSS Results](documentation/validation-results/w3c-css-validator-style.pdf)
+  * [CSS Results](documentation/validation-results/w3c-css-validator-style.pdf)
 
 ### Browser Compatibility
 
@@ -233,8 +254,8 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ### Feature testing
 
-    * The following table details the testing of site navigation, form action and validation and responsiveness functionality. The testing cross-references to the features listed above.
-  
+* The following table details the testing of site navigation, form action and validation and responsiveness functionality. The testing cross-references to the features listed above.
+
     ![Test Results](documentation/responsiveness-testing/user-testing.png)
 
 ### Bugs
@@ -243,7 +264,7 @@ During a HTML validation test, an error was received regarding a ref cannot be u
 I researched on [Stack Overflow](https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element) to fix.
 
 During testing a CSS styling issue meant the cards were a different height due to text wrap dropping a line. I put a 'min-height' style in pace to rectify.
-[screenshot](documentation/validation-results/card-body-height-issue.png)
+![screenshot](documentation/validation-results/card-body-height-issue.png)
 
 ## Deployment
 
