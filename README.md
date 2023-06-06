@@ -1,4 +1,4 @@
-# The Conwy Bike Hub
+# The Bike Shed Conwy
 
 [View the live project here](https://paddyw11.github.io/CI-MSP-1-PW/)
 
