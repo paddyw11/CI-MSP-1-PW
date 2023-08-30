@@ -268,6 +268,22 @@ During testing a CSS styling issue meant the cards were a different height due t
 
 ## Deployment
 
+### How this site can be deployed
+
+* In the GitHub respository, navigate to the Settings tab, then choose pages from the left hand menu
+* From the build and deployment section ensure the source drop-down menu is showing deploy from a branch and the branch drop down is showing main, next click save and allow the page to refesh to deploy the page.
+* Any changes now pushed to the master branch will be evident on the deployed page.
+
+The deployed site can be found [here](https://paddyw11.github.io/CI-MSP-1-PW/)
+  
+### How this site can be cloned
+  
+* Log into Github or set up a new account.
+* Navigate to the repository [here](https://github.com/paddyw11/CI-MSP-1-PW)
+* Click on the code button, select whether to clone with HTTPS, SSH or Github CLI and copy the link shown.
+* Open a terminal in a new IDE workspace where you wish to clone the repository to.
+* Type 'git clone' into the terminal and paste the link copied from the original source repository and press the Enter key to begin the clone process.
+
 ## Credits
 
 ### Content
