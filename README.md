@@ -133,7 +133,6 @@ The goal of the Bike Shed Conwy is to inform users of its bicycle repair and mai
 
 ### Wireframes
 
-
 To follow best practice, wireframes have been developed for mobile tablet and desktop sizes. [Balsamiq](https://balsamiq.com/wirefrmmes) to create the wireframes.
 
 <details>

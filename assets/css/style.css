@@ -11,15 +11,17 @@ h1 {
     color: #2600ff
 }
 
-h2{
+h2 {
     font-weight: 600;
     color: #2600ff
 }
-h3{
+
+h3 {
     font-weight: 400;
     color: #2600ff
 }
-* {
+
+*{
     margin: 0;
     padding: 0;
     border: 0;
@@ -29,14 +31,17 @@ html {
     height: 100%;
     width: 100%;
 }
+
 /* logo and title*/
+
 #logo {
     float: left;
     font-size: 200%;
     margin-left: 30px;
     color:#2600ff;
 }
-.active{
+
+.active {
     border-bottom: 1px solid #2600ff;
     font-weight: bold;
 }
@@ -123,13 +128,16 @@ a:active {
     position: absolute;
     border-radius: 15px;
 }
-#cover-text h3{
+
+#cover-text h3 {
     color: #ffffff;
 
 }
-.card-body{
+
+.card-body {
     min-height: 175px;
 }
+
 .card-image-top {
     text-align: center;
     object-fit: cover;
@@ -150,7 +158,8 @@ hr {
     width: 100%;
     margin: 5px
 }
-.why-us{
+
+.why-us {
     text-align: center;
     padding: 20px 10px;
     color: #2600ffe6;
@@ -158,16 +167,18 @@ hr {
     font-family:barlow;
     margin-bottom: 50px;
 }
-#why-us p{
+
+#why-us p {
     font-size: larger;
 }
 
-#why-us-header{
+#why-us-header {
     padding: 20px 20px;
     color: #2600ffe6;
     text-transform: uppercase;
     font-weight:bold;
 }
+
 .left-about-heading {
     width: 100%;
     line-height: 25px;
@@ -184,9 +195,11 @@ hr {
     text-align: center;
 
 }
+
 #right-about{
     margin-bottom: 50px;
 }
+
 #services div {
     width: 100%;
     clear: both;
@@ -237,7 +250,8 @@ footer {
     caption-side: top;
     font-size: large;
     font-weight: 400;
-    }
+}
+
 .service-header{
     margin:auto;
     padding: 25px;
@@ -246,56 +260,69 @@ footer {
     text-transform: uppercase;
     max-width: 900px;
 }
+
 .services-table{
     margin:auto;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
 }
+
 .center{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 150px;
 }
+
 .servicelist{
     margin-bottom: auto;
     padding-bottom: 150px;      
 }
+
 .table{
     table-layout:auto;
     font-size:x-large;
 }
-th{text-align: center;}
-td{text-align: center;
+
+th {text-align: center;
 }
-td a{font-size: x-large;}
-#services{
+
+td {text-align: center;
+}
+
+td a {font-size: x-large;
+}
+
+#services {
     margin-left: 25px;
     margin-right: 25px;
 }
+
 /* styling for the book now page*/
 
 #booknow{
     margin-bottom:150px;
-    
 }
-#book-now-section{
+
+#book-now-section {
     margin-bottom:150px;
     margin-left:10px;
 }
 
-#booknowheader{
+#booknowheader {
     text-align:left;
 }
-form{
+
+form {
     width:100%;
     padding-bottom: 150px;
-    }
+}
 
-form label{
+form label {
     text-align: left;
 }
-input{
+
+input {
     width: 66%;
     padding:10px;
     border: 2px solid #2600ff;
@@ -318,7 +345,7 @@ select {
     min-width: 310px;
 }
 
-.button{            
+.button {            
     background-color:#2600ff;
     border: none;
     color: #ffffff;
@@ -333,18 +360,19 @@ select {
     margin-top: 1.875rem;
 }
 
-        /* styling for contact page */
+/* styling for contact page */
 
-#map{
+#map {
     margin-bottom: 25px;
 }
-.map{
+
+.map {
     max-width: 75%;
     margin-left: auto;
     margin-right:auto;
     margin-bottom:25px;
-
 }
+
 .contact-us {
     text-align: center;
     padding: 20px 10px;
@@ -353,25 +381,30 @@ select {
     font-family: barlow;
     margin-bottom: 15px;
 }
-.contact{
+
+.contact {
     margin-bottom:100px;
     padding-bottom: 0px;
 }
+
 #contact-us-header {
     padding: 20px 20px;
     color: #2600ffe6;
     text-transform: uppercase;
     font-weight: bold;
 }
-#location-icon{
+
+#location-icon {
     text-align: center;
         color: #2600ffe6;
         font-size: large;
         font-family: barlow;
-        }
-#contact-types{
+}
+
+#contact-types {
     padding-bottom:50px;
 }
+
 .phone {
     width: 100%;
     line-height: 25px;
