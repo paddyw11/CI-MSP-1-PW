@@ -105,10 +105,10 @@ a:active {
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+    transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+    transform: scale(1.1);
     }
 }
 
@@ -145,11 +145,11 @@ a:active {
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+    transform: scale(1);
     }
 
     to {
-        transform: scale(1.1);
+    transform: scale(1.1);
     }
 }
 
@@ -209,6 +209,8 @@ hr {
     border-bottom-color: #fff;
 }
 
+/*footer*/
+
 footer {
     background-color: #000000;
     padding: 5px;
@@ -230,7 +232,7 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    margin: 1%;
+    margin: auto;
     padding: 0;
     color: #777777;
 }
@@ -396,9 +398,9 @@ select {
 
 #location-icon {
     text-align: center;
-        color: #2600ffe6;
-        font-size: large;
-        font-family: barlow;
+    color: #2600ffe6;
+    font-size: large;
+    font-family: barlow;
 }
 
 #contact-types {

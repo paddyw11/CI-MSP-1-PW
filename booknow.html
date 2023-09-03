@@ -1,106 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Imports for bootstrap, font awesome, google fonts, stylesheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
-    <title>The Bike Shed Conwy - Book Now</title>
-    <script src="https://kit.fontawesome.com/b45e489d19.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <header>
-        <!-- nav bar -->
-        <a href="index.html">
-            <h1 id="logo">The Bike Shed Conwy <i class="fa-solid fa-wrench fa-flip-horizontal"></i></h1></a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="booknow.html" class="active">Book Now</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Imports for bootstrap, font awesome, google fonts, stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+        <title>The Bike Shed Conwy - Book Now</title>
+        <script src="https://kit.fontawesome.com/b45e489d19.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!-- nav bar -->
+            <a href="index.html">
+                <h1 id="logo">The Bike Shed Conwy <i class="fa-solid fa-wrench fa-flip-horizontal"></i></h1></a>
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="booknow.html" class="active">Book Now</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
 <!-- cover text -->
-    <section id="hero-outer">
-        <div id="hero-image">
-        </div>
-        <div id="cover-text">
-        <h3> A cycle repair shop in the heart of Conwy </h3>
-        </div>
-    </section>
-    <!-- booking form -->
-    <div id="booknow">
-        <section id="book-now-section">
-            <div><h2 id="booknowheader">Book Now</h2><br>
-                <p> Complete the form below and we'll contact you with our availability</P>
+        <section id="hero-outer">
+            <div id="hero-image">
             </div>
-            <div id="formdiv">
-                <form method="POST" action="https://formdump.codeinstitute.net" target="_blank">
-                    <label for="fullname">Your full name:</label><br>
-                    <input type="text" class="text-input text-input-line" id="fullname" name="fullname" placeholder="*Your name" required><br><br>
-                    <label for="email">Email address:</label><br>
-                    <input type="email" class="text-input text-input-line" id="email" name="email" placeholder="*Email" required><br><br>
-                    <label for="phone">Phone Number: e.g 00447923456789</label><br>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{>11}" required><br>
-                    <label for="service-select">Select a Service</label><br>
-                    <select id="service-select" name="service-select">
-                    <option value="101"> Flat Tyre Repair</option>
-                    <option value="102"> Brake Adjustment</option>
-                    <option value="103"> Handlebar Adjustment</option>
-                    <option value="104"> Gear Adjustment</option>
-                    <option value="105"> Chain Replacement</option>
-                    <option value="106"> Wheel Truing</option>
-                    <option value="107"> Bottom Bracket Repair</option>
-                    <option value="108"> Headset Adjustment</option>
-                    <option value="109"> Pedal Replacement</option>
-                    <option value="110"> Handlebar Tape Replacement</option>
-                    <option value="111"> Full Service</option>
-                    <option value="112"> Full Bike Clean</option></select>
-                    <input type="submit" value="Request Booking" class="button"><br>
-                </form>
+            <div id="cover-text">
+            <h3> A cycle repair shop in the heart of Conwy </h3>
             </div>
         </section>
-    </div>
-    <!-- FOOTER -->
-    <footer>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page (opens in a new tab)"><i
-                            class="fa-brands fa-square-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-square-instagram"></i></a></li>
-        </ul>
-    </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-</body>
+<!-- booking form -->
+        <div id="booknow">
+            <section id="book-now-section">
+                <div><h2 id="booknowheader">Book Now</h2><br>
+                    <p> Complete the form below and we'll contact you with our availability</P>
+                </div>
+                <div id="formdiv">
+                    <form method="POST" action="https://formdump.codeinstitute.net" target="_blank">
+                        <label for="fullname">Your full name:</label><br>
+                        <input type="text" class="text-input text-input-line" id="fullname" name="fullname" placeholder="*Your name" required><br><br>
+                        <label for="email">Email address:</label><br>
+                        <input type="email" class="text-input text-input-line" id="email" name="email" placeholder="*Email" required><br><br>
+                        <label for="phone">Phone Number: e.g 00447923456789</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{>11}" required><br>
+                        <label for="service-select">Select a Service</label><br>
+                        <select id="service-select" name="service-select">
+                            <option value="101"> Flat Tyre Repair</option>
+                            <option value="102"> Brake Adjustment</option>
+                            <option value="103"> Handlebar Adjustment</option>
+                            <option value="104"> Gear Adjustment</option>
+                            <option value="105"> Chain Replacement</option>
+                            <option value="106"> Wheel Truing</option>
+                            <option value="107"> Bottom Bracket Repair</option>
+                            <option value="108"> Headset Adjustment</option>
+                            <option value="109"> Pedal Replacement</option>
+                            <option value="110"> Handlebar Tape Replacement</option>
+                            <option value="111"> Full Service</option>
+                            <option value="112"> Full Bike Clean</option>
+                        </select>
+                        <input type="submit" value="Request Booking" class="button"><br>
+                    </form>
+                </div>
+            </section>
+        </div>
+<!-- FOOTER -->
+        <footer>
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                </li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Youtube page (opens in a new tab)"><i
+                                class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    </body>
 </html>
